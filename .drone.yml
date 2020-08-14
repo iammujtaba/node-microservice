@@ -9,7 +9,7 @@ steps:
 - name: publish
   image: plugins/docker
   settings:
-    repo: mohdmujtaba/node-microservice
+    repo: iammujtaba/node-microservice
     auto_tag: true
     username:
       from_secret: docker_username
